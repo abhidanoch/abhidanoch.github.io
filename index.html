@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abhi Danoch | Author</title>
+  <meta name="description" content="Official author website of Abhi Danoch, author of Coming Back to Yourself.">
+  <style>
+    :root { --forest:#244b3c; --sage:#dce8df; --cream:#f7f5ee; --ink:#202a25; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--cream); color:var(--ink); font:16px/1.65 Georgia,serif; }
+    header { padding:22px 7%; display:flex; justify-content:space-between; align-items:center; gap:18px; }
+    .brand { font:700 17px/1.2 Arial,sans-serif; letter-spacing:.04em; color:var(--forest); }
+    nav a { color:var(--forest); text-decoration:none; font:14px Arial,sans-serif; margin-left:18px; }
+    .hero { padding:70px 7% 80px; background:var(--sage); }
+    .wrap { max-width:980px; margin:auto; }
+    .eyebrow { font:12px Arial,sans-serif; letter-spacing:.18em; text-transform:uppercase; color:var(--forest); }
+    h1 { font-size:clamp(38px,7vw,70px); line-height:1.08; font-weight:400; margin:18px 0; color:var(--forest); }
+    .intro { max-width:620px; font-size:20px; }
+    .button { display:inline-block; margin-top:20px; padding:14px 22px; background:var(--forest); color:white; text-decoration:none; border-radius:3px; font:14px Arial,sans-serif; }
+    section { padding:60px 7%; }
+    h2 { color:var(--forest); font-size:32px; font-weight:400; margin:0 0 18px; }
+    .book { display:grid; grid-template-columns: minmax(180px,260px) 1fr; gap:32px; align-items:center; max-width:800px; }
+    .cover { min-height:330px; background:#17231e; color:#f7f5ee; display:flex; align-items:center; justify-content:center; text-align:center; padding:28px; box-shadow:0 12px 28px #0002; }
+    .cover strong { font: bold 25px/1.25 Arial,sans-serif; }
+    .muted { color:#5e6b63; }
+    footer { padding:26px 7%; border-top:1px solid #d9ded7; text-align:center; color:#657169; font:13px Arial,sans-serif; }
+    @media(max-width:600px) { header { flex-wrap:wrap; } nav a { margin-left:12px; } .book { grid-template-columns:1fr; } .cover { max-width:240px; min-height:300px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">ABHI DANOCH</div>
+    <nav><a href="#about">About</a><a href="#book">Book</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Author</div>
+        <h1>Coming back<br>to yourself.</h1>
+        <p class="intro">Welcome to the official author page of Abhi Danoch, author of <em>Coming Back to Yourself</em>.</p>
+        <a class="button" href="https://www.amazon.in/dp/B0HHFN4T85" target="_blank" rel="noopener">Find the book on Amazon</a>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="wrap">
+        <h2>About Abhi Danoch</h2>
+        <p>Abhi Danoch is the author of <em>Coming Back to Yourself: You Are Not Lost. You Are Simply Looking in the Wrong Direction.</em></p>
+        <p class="muted">This is a starter biography. You can add a personal introduction, your writing journey, and other details here when you're ready.</p>
+      </div>
+    </section>
+
+    <section id="book">
+      <div class="wrap book">
+        <div class="cover" aria-label="Book cover placeholder">
+          <strong>Coming Back<br>to Yourself</strong>
+        </div>
+        <div>
+          <div class="eyebrow">The book</div>
+          <h2>Coming Back to Yourself</h2>
+          <p class="muted">You Are Not Lost. You Are Simply Looking in the Wrong Direction.</p>
+          <p>Discover the book and its current listing on Amazon.</p>
+          <a class="button" href="https://www.amazon.in/dp/B0HHFN4T85" target="_blank" rel="noopener">View on Amazon India</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© Abhi Danoch · Author</footer>
+</body>
+</html>
